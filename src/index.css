@@ -22,12 +22,12 @@
     background-position: 0% center;
   }
   100% {
-    background-position: 200% center;
+    background-position: 100% center;
   }
 }
 
 .animate-gradient {
-  animation: gradient 5s linear infinite;
+  animation: gradient 5s ease-in-out infinite alternate;
 }
 
 .black-gradient {

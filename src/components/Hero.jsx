@@ -1,9 +1,15 @@
-//import motion from "framer-motion";
+import { motion } from "framer-motion";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
+import { textVariant } from "../utils/motion";
 const Hero = () => {
   return (
-    <section className="relative mx-auto min-h-screen w-full">
+    <motion.section
+      variants={textVariant()}
+      initial="hidden"
+      animate="show"
+      className="relative mx-auto min-h-screen w-full"
+    >
       <div
         className={`relative mx-auto flex min-h-screen w-full max-w-7xl flex-col gap-8 px-6 pb-12 pt-28 sm:px-16 sm:pt-32 lg:flex-row lg:items-center lg:gap-5 lg:py-32`}
       >
@@ -29,7 +35,7 @@ const Hero = () => {
 
         <ComputersCanvas />
       </div>
-    </section>
+    </motion.section>
   );
 };
 
