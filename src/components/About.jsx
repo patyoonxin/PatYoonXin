@@ -8,17 +8,17 @@ const skillGroups = [
   {
     title: "Languages & Web Technologies",
     skills: ["Java", "Python", "PHP", "JavaScript", "HTML", "Tailwind CSS"],
-    accent: "from-violet-500/40 via-purple-500/20 to-cyan-400/20",
+    accent: "from-violet-700 via-purple-500 to-indigo-600",
   },
   {
     title: "Frameworks & Libraries",
     skills: ["React", "Vue.js", "Laravel", "Spring Boot","Node.js", "Three.js"],
-    accent: "from-cyan-400/30 via-blue-500/20 to-violet-500/30",
+    accent: "from-indigo-600 via-violet-600 to-cyan-600",
   },
   {
     title: "Database",
     skills: ["MySQL"],
-    accent: "from-fuchsia-500/30 via-violet-500/20 to-pink-400/25",
+    accent: "from-purple-600 via-pink-500 to-violet-600",
   },
 ];
 

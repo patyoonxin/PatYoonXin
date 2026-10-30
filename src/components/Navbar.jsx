@@ -13,7 +13,7 @@ const Navbar = () => {
       variants={textVariant(0.1)}
       initial="hidden"
       animate="show"
-      className="fixed left-1/2 top-3 z-50 w-[calc(100%-2rem)] max-w-[1320px] -translate-x-1/2 lg:w-2/3"
+      className="fixed left-1/2 top-3 z-50 w-[calc(100%-2rem)] max-w-[1320px] -translate-x-1/2 lg:w-5/6"
       aria-label="Main navigation"
     >
       <div className="relative w-full rounded-full lg:border lg:border-white/10 lg:bg-tertiary/90 lg:p-1 lg:shadow-lg lg:shadow-black/20 lg:backdrop-blur-md">
