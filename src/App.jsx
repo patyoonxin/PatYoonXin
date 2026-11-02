@@ -20,16 +20,19 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+
         <section id="about" className="scroll-mt-24">
           <About />
         </section>
+
         <section id="experience" className="scroll-mt-24">
           <Experience />
         </section>
-        <Tech /> 
+
         <section id="projects" className="scroll-mt-24">
-          <Works />
+        <Works />
         </section>
+        
         <Feedbacks />
         <div id="contact" className="relative z-0 scroll-mt-24">
           <Contact />

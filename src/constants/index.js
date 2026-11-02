@@ -15,12 +15,12 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   mtc,
   tadika,
+  ecocool,
+  insightguard,
+  defaultImage
 } from "../assets";
 
 export const navLinks = [
@@ -188,70 +188,222 @@ const testimonials = [
   },
 ];
 
+// react - blue-text-gradient
+// laravel & php - green-text-gradient
+// mysql - pink-text-gradient
+// fastapi - orange-text-gradient
+// springboot - yellow-text-gradient
+// other - white
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "FlemingAR",
+    type: "FYP",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An interactive Augmented Reality (AR) learning system designed to help secondary school students master Physics Electromagnetism through hand-pose recognition and an RAG-powered AI tutor. The system utilizes Mediapipe for hand-pose recognition, XAI and RAG for curriculum-grounded AI tutoring",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mediapipe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rag",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: defaultImage,
+    website_link: "https://github.com/",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "EcoCool Node",
+    type: "Hackathon",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Integrating with ESP32 and other IoT sensors, EcoCool Node is a solar-powered environmental monitoring and adaptive ventilation system designed for small growing enclosures. It monitors temperature and battery condition to determine when ventilation is needed and how to manage limited energy resources.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "fastapi",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "esp32",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ecocool,
+    website_link: "https://ecocool-node.vercel.app/",
+    source_code_link: "https://github.com/patyoonxin/EcoCool.git",
   },
   {
-    name: "Trip Guide",
+    name: "Official Portal of the Kulai District Office",
+    type: "Academic",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A full-stack web application designed to streamline customer support and complaint management by integrating a Gemini AI chatbot, human-agent handoff, automated issue tracking, self-service FAQs, and sentiment analytics.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mysql",
         color: "pink-text-gradient",
       },
+      {
+        name: "geminiAPI",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
+    image: defaultImage,
+    website_link: "https://github.com/",
+    source_code_link: "https://github.com/patyoonxin/AD1_Sec2_BeyondLevel.git",
+  },
+  {
+    name: "EventOra",
+    type: "Academic",
+    description:
+      "A full-stack cross-platform event management platform for student societies featuring dynamic QR ticketing, mobile check-ins, Stripe payments, and Gemini AI-powered feedback analysis.",
+    tags: [
+      {
+        name: "vue3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "phpslim4",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "geminiAPI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: defaultImage,
+    website_link: "https://eventora-teal.vercel.app/",
+    source_code_link: "https://github.com/patyoonxin/eventora.git",
+  },
+  {
+    name: "InsightGuard AI",
+    type: "Hackathon",
+    description:
+      "An executive early-warning dashboard that monitors KPIs, detects anomalies, identifies sustained trends and cross-domain business incidents, forecasts near-term risks, and generates AI-powered briefings.",
+    tags: [
+      {
+        name: "streamlit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: insightguard,
+    website_link: "https://insightguardai-yoonxin.streamlit.app/",
+    source_code_link: "https://github.com/patyoonxin/InsightGuardAI.git",
+  },
+  {
+    name: "Etiqa Payout System",
+    type: "Academic",
+    description:
+      "A full-stack web application designed to streamline the payout process for insurance claims, featuring automated validation, real-time status updates, and comprehensive reporting.",
+    tags: [
+      {
+        name: "springboot",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: defaultImage,
+    website_link: "https://github.com/",
     source_code_link: "https://github.com/",
   },
+  // {
+  //   name: "SmartWealth-GX",
+  //   type: "Hackathon",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "ShadowSeek AI",
+  //   type: "Hackathon",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "AllWays",
+  //   type: "Hackathon",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

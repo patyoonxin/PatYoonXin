@@ -24,9 +24,9 @@ import threejs from "./tech/threejs.svg";
 import mtc from "./company/mtc.png";
 import tadika from "./company/tadika.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ecocool from "./ecocool.png";
+import insightguard from "./insightguard.png";
+import defaultImage from "./default.png";
 
 export {
   logo,
@@ -52,7 +52,7 @@ export {
   threejs,
   mtc,
   tadika,
-  carrent,
-  jobit,
-  tripguide,
+  ecocool,
+  insightguard,
+  defaultImage,
 };
