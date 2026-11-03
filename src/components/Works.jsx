@@ -102,7 +102,7 @@ const Works = () => {
           whileHover={{ scale: 1.05, y: -3 }}
           whileTap={{ scale: 0.96 }}
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-          className='flex items-center justify-center gap-2 rounded-full border border-white bg-[#0f172a] px-6 py-4 text-[16px] font-semibold text-white shadow-lg transition-colors hover:bg-[#1e293b] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+          className='flex items-center justify-center animate-bounce gap-2 rounded-full border border-white bg-[#0f172a] px-6 py-4 text-[16px] font-semibold text-white shadow-lg transition-colors hover:bg-[#1e293b] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
         >
           <img src={github} alt='' className='h-5 w-5' />
           View More on GitHub
