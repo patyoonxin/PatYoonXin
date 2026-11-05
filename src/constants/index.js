@@ -48,7 +48,7 @@ export const navLinks = [
     title: "Education",
   },
     {
-    id: "certificate",
+    id: "certs",
     title: "Certs",
   },
   {
@@ -446,5 +446,46 @@ const education = [
   
 ];
 
+const certificates = [
+  {
+    title: "Microsoft Certified: Azure AI Fundamentals (AI-901)",
+    company: "Microsoft",
+    credential_link: "https://learn.microsoft.com/en-us/users/yoonxinpat-3103/credentials/fe1280ce1a414554?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+    tags: [
+      "# Microsoft Azure",
+      "# Microsoft Foundry",
+      "# Artificial Intelligence",
+    ],
+  },
+  {
+    title: "Google Advanced Data Analytics Professional Certificate",
+    company: "Google",
+    credential_link: "https://www.coursera.org/account/accomplishments/specialization/NXZOV50HT54U",
+    tags: [
+      "# Data Analytics",
+      "# Python",
+      "# Tableau",
+      "# Machine Learning",
+    ],
+  },
+  {
+    title: "Google Project Management Professional Certificate",
+    company: "Google",
+    credential_link: "https://www.coursera.org/account/accomplishments/specialization/XD6MSTUND77M",
+    tags: [
+      "# Agile Project Management",
+    ],
+  },
+  {
+    title: "Google AI Professional Certificate",
+    company: "Google",
+    credential_link: "https://www.coursera.org/account/accomplishments/specialization/2FEIYRG6Q8UF",
+    tags: [
+      "# Artificial Intelligence",
+    ],
+  },
+  
+];
 
-export { services, technologies, experiences, testimonials, projects, education };
+
+export { services, technologies, experiences, testimonials, projects, education, certificates };

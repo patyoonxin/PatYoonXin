@@ -9,6 +9,7 @@ import {
   Navbar,
   Tech,
   Works,
+  Certs,
   StarsCanvas,
 } from "./components";
 
@@ -36,6 +37,10 @@ const App = () => {
 
         <section id="education" className="scroll-mt-24">
           <Education />
+        </section>
+
+        <section id="certs" className="scroll-mt-24">
+          <Certs />
         </section>
 
         <Feedbacks />
