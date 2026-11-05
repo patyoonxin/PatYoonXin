@@ -20,7 +20,9 @@ import {
   tadika,
   ecocool,
   insightguard,
-  defaultImage
+  defaultImage,
+  utm,
+  yuhua
 } from "../assets";
 
 export const navLinks = [
@@ -406,4 +408,43 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const education = [
+  {
+    title: "Universiti Teknologi Malaysia (UTM)",
+    course: "Bachelor in Software Engineering w Honours",
+    icon: utm,
+    iconBg: "#383E56",
+    date: "Oct 2024 - Present",
+    cgpa: "3.94/4.00",
+    details: "Pursuing a degree in Software Engineering with a strong interest in Artificial Intelligence and intelligent systems. Developing practical skills in software development, system design, and AI integration through academic projects and technology competitions.",
+    highlights: [
+      "Dean's List Recipient",
+      "JPA-PIDN Scholarship Recipient",
+    ],
+  },
+  {
+    title: "Universiti Teknologi Malaysia (UTM)",
+    course: "Diploma in Computer Science",
+    icon: utm,
+    iconBg: "#383E56",
+    date: "Aug 2021 - Aug 2024",
+    cgpa: "3.99/4.00",
+    details: "Completed a Diploma in Computer Science, building a strong foundation in programming, software development, database management, and computer science fundamentals.",
+    highlights: [
+      "Dean's List Recipient",
+      "Best Graduate Award - 68th UTM Convocation"
+    ],
+  },
+   {
+    title: "SMJK Yu Hua",
+    course: "Sijil Pelajaran Malaysia (SPM)",
+    icon: yuhua,
+    iconBg: "#383E56",
+    date: "Jan 2016 - Aug 2020",
+    details: "Achieved 10As, with active involvement in competitions and extracurricular activities, developing communication, teamwork, and problem-solving skills.",
+  },
+  
+];
+
+
+export { services, technologies, experiences, testimonials, projects, education };

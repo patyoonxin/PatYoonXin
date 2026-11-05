@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import {
   About,
   Contact,
+  Education,
   Experience,
   Feedbacks,
   Hero,
@@ -30,9 +31,13 @@ const App = () => {
         </section>
 
         <section id="projects" className="scroll-mt-24">
-        <Works />
+          <Works />
         </section>
-        
+
+        <section id="education" className="scroll-mt-24">
+          <Education />
+        </section>
+
         <Feedbacks />
         <div id="contact" className="relative z-0 scroll-mt-24">
           <Contact />

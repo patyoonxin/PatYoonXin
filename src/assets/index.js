@@ -28,6 +28,9 @@ import ecocool from "./ecocool.png";
 import insightguard from "./insightguard.png";
 import defaultImage from "./default.png";
 
+import utm from "./company/utm.png";
+import yuhua from "./company/yuhua.jpg";
+
 export {
   logo,
   backend,
@@ -55,4 +58,6 @@ export {
   ecocool,
   insightguard,
   defaultImage,
+  utm,
+  yuhua
 };

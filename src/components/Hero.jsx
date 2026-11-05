@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
 import { textVariant } from "../utils/motion";
 const Hero = () => {
+  const [isTyping, setIsTyping] = useState(true);
+
   return (
     <motion.section
       variants={textVariant()}
@@ -22,8 +25,14 @@ const Hero = () => {
           <div className="min-w-0">
             <h1 className={styles.heroHeadText}>
               Hi, I'm <br />
-              <span className="bg-gradient-to-r from-violet-400 via-purple-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text text-transparent animate-gradient">
-                Pat Yoon Xin
+              <span
+                className={`text-typing${isTyping ? " is-typing" : ""}`}
+                onMouseEnter={() => setIsTyping(true)}
+                onAnimationEnd={() => setIsTyping(false)}
+              >
+                <span className="bg-gradient-to-r from-violet-400 via-purple-500 to-cyan-400 bg-[length:200%_auto] bg-clip-text text-transparent animate-gradient">
+                  Pat Yoon Xin
+                </span>
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2`}>
