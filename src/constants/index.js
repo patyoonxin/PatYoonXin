@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  github,
   javascript,
   typescript,
   html,
@@ -23,7 +24,10 @@ import {
   defaultImage,
   utm,
   yuhua,
-  robocar
+  robocar,
+  email,
+  linkedin,
+  whatsapp
 } from "../assets";
 
 export const navLinks = [
@@ -618,9 +622,30 @@ const leaderships = [
     ],
     image: defaultImage,
   },
+];
   
-  
+  const contacts = [
+  {
+    title: "Github",
+    icon: github,
+    link: "https://github.com/patyoonxin"
+  },
+  {
+    title: "Email address yoonxin123@gmail.com",
+    icon: email,
+    link: "yoonxin123@gmail.com"
+  },
+  {
+    title: "LinkedIn",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/patyoonxin"
+  },
+  {
+    title: "Phone number 016-2163003",
+    icon: whatsapp,
+    link: "016-2163003"
+  }
 ];
 
 
-export { services, technologies, experiences, testimonials, projects, education, certificates, leaderships };
+export { services, technologies, experiences, testimonials, projects, education, certificates, leaderships, contacts };

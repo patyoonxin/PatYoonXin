@@ -33,6 +33,10 @@ import yuhua from "./company/yuhua.jpg";
 
 import robocar from "./leadership/robocar.jpg";
 
+import email from "./email.png";
+import linkedin from "./linkedin.png";
+import whatsapp from "./whatsapp.png";
+
 export {
   logo,
   backend,
@@ -62,5 +66,8 @@ export {
   defaultImage,
   utm,
   yuhua,
-  robocar
+  robocar,
+  email,
+  linkedin,
+  whatsapp,
 };

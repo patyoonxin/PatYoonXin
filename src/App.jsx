@@ -9,7 +9,6 @@ import {
   Works,
   Certs,
   Leadership,
-  StarsCanvas,
 } from "./components";
 
 const App = () => {
@@ -48,7 +47,6 @@ const App = () => {
       
         <div id="contact" className="relative z-0 scroll-mt-24">
           <Contact />
-          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
