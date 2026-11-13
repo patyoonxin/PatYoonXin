@@ -7,7 +7,7 @@ import Experience from './Experience';
 import Education from './Education';
 import Works from './Works';
 import Certs from './Certs';
-import Feedbacks from './Feedbacks';
+import Leadership from './Leadership';
 import Contact from './Contact';
 
 export {
@@ -19,7 +19,7 @@ export {
   Education,
   Works,
   Certs,
-  Feedbacks,
+  Leadership,
   Contact,
   EarthCanvas, 
   BallCanvas, 

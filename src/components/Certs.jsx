@@ -13,12 +13,12 @@ const Certs = () => {
         <h2 className={styles.sectionHeadText}>My Certifications.</h2>
       </motion.div>
 
-      <div className="mt-8 border-t border-white/10">
+      <div className="mt-8 border-t border-white/50">
         {certificates.map((certificate, index) => (
           <motion.article
             key={certificate.title}
             variants={fadeIn("up", "spring", index * 0.1, 0.5)}
-            className="flex flex-col gap-5 border-b border-white/10 py-7 sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:py-8"
+            className="flex flex-col gap-5 border-b border-white/50 py-7 sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:py-8"
           >
             <div className="min-w-0">
               <h3 className="text-lg font-semibold text-white sm:text-xl">

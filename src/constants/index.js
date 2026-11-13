@@ -22,7 +22,8 @@ import {
   insightguard,
   defaultImage,
   utm,
-  yuhua
+  yuhua,
+  robocar
 } from "../assets";
 
 export const navLinks = [
@@ -52,7 +53,7 @@ export const navLinks = [
     title: "Certs",
   },
   {
-    id: "events",
+    id: "leadership",
     title: "Leaderships",
   },
   {
@@ -147,6 +148,16 @@ const experiences = [
       "Implemented functionality to organize product interests and facilitate the scheduling of company-client meetings, streamlining the meeting coordination process.",
       "Provided technical and IT support to staff, assisting with day-to-day technical operations.",
       "Supported the planning and coordination of IT-related events.",
+    ],
+  },
+   {
+    title: "Academic Peer Tutor",
+    company_name: "Universiti Teknologi Malaysia (UTM)",
+    icon: utm,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Mar 2023",
+    points: [
+      "Assisted lecturers in providing academic support to students through tutoring sessions, helping them understand course materials and improve their learning.",
     ],
   },
   {
@@ -487,5 +498,129 @@ const certificates = [
   
 ];
 
+const leaderships = [
+  {
+    title: "Robocar Challenge - Real-Time Systems Engineering",
+    description: "Developed and tested a real-time robotic car navigation system as part of the Real-Time Systems Engineering course.",
+    key_contributions: [
+      "Implemented finite state machine (FSM) navigation with checkpoint detection for track navigation.",
+      "Developed RTOS-based multitasking for navigation, motor control, obstacle detection, and signaling.",
+      "Integrated line, proximity, and light sensors for real-time steering and decision-making.",
+      "Tuned motor responses to improve line tracking, obstacle handling, and navigation stability."
+    ],
+    key_skills: [
+      "Embedded Systems",
+      "RTOS",
+      "Finite State Machine",
+      "Sensor Integration",
+      "Real-Time Programming",
+    ],
+    image: robocar,
+  },
+  {
+    title: "Maxis Industry Visit & Winning in AI Pitching Competition",
+    description: "Participated in an industry visit to Maxis, exploring its digital innovation initiatives, AI applications, and the Maxis Business Innovation Centre (MBIC).",
+    key_contributions: [
+      "Explored real-world applications of AI, smart city technologies, intelligent traffic systems, and industrial robotics.",
+      "Learned how sensor-based defect detection and Overall Equipment Effectiveness (OEE) metrics support manufacturing efficiency.",
+      "Collaborated with a team to develop and pitch an Automated Intern Matching System, an AI-driven solution to streamline internship recruitment.",
+      "Champion - AI Solution Pitching Competition"
+    ],
+    key_skills: [
+      "AI Innovation",
+      "Solution Design",
+      "Team Collaboration",
+      "Technical Pitching",
+    ],
+    image: defaultImage,
+  },
+  {
+    title: "Digital Nation Summit Kuala Lumpur (ASEAN Edition) 2025",
+    description: "Served as a part-time crew member representing U Mobile at the Digital Nation Summit Kuala Lumpur (ASEAN Edition), held on 23-24 September 2025.",
+    key_contributions: [
+      "Assisted in introducing and explaining U Mobile's U Business services to event visitors.",
+      "Communicated technology offerings to audiences from different backgrounds.",
+      "Gained exposure to emerging technologies through Huawei's robotics showcase and industry engagement.",
+    ],
+    key_skills: [
+      "Communication ",
+      "Industry Engagement",
+      "Public Interaction",
+    ],
+    image: defaultImage,
+  },
+  {
+    title: "Stakeholder Meetings - Kulai District Official Portal Development",
+    description: "Collaborated with a team to develop an official portal for the Kulai District Office, involving direct engagement with stakeholders throughout the development process.",
+    key_contributions: [
+      "Conducted stakeholder meetings to gather and clarify system requirements.",
+      "Discussed portal functionalities, content requirements, and features to be included or excluded.",
+      "Presented proposed solutions and development progress to stakeholders for feedback and validation.",
+      "Incorporated stakeholder feedback to align the portal with organizational needs."
+    ],
+    key_skills: [
+      "Stakeholder Engagement",
+      "Requirements Analysis",
+      "Client Communication",
+    ],
+    image: defaultImage,
+  },
+  {
+    title: "Engineering & Science English Summer Exchange Programme with Japan",
+    description: "Represented UTM in a two-week international exchange programme with Shibaura Institute of Technology, Japan.",
+    key_contributions: [
+      "Collaborated with Japanese student buddies through academic exchange activities.",
+      "Participated in multicultural activities and educational visits to historical landmarks.",
+      "Strengthened cross-cultural communication, teamwork, and international collaboration skills.",
+    ],
+    key_skills: [
+      "Cross-Cultural Communication ",
+      "International Collaboration",
+      "Adaptability",
+    ],
+    image: defaultImage,
+  },
+   {
+    title: "Vice Director in JARVIS'26 - Robotics Learning & Robocar Challenge",
+    description: "Co-organized a robotics education programme for children from Rumah Perlindungan Kanak-Kanak TBQ Amal, introducing them to robotics, programming, and hands-on robotic car activities.",
+    key_contributions: [
+      "Coordinated with the children's home representative to arrange programme details and facilitate communication.",
+      "Assisted in preparing and testing robotic cars, including code debugging and functionality checks.Participated in multicultural activities and educational visits to historical landmarks.",
+      "Supported hands-on robotics and coding sessions, guiding participants in programming their cars.",
+    ],
+    key_skills: [
+      "Stakeholder Coordination ",
+      "Robotics and Programming",
+      "Community Engagement",
+    ],
+    image: defaultImage,
+  },
+  {
+    title: "Vice Secretary in Faculty Computing Sports Day - SUSKOM'25",
+    key_contributions: [
+      "Supported the planning, coordination, and documentation of a faculty sports event involving 300+ students.",
+    ],
+    key_skills: [
+      "Event Coordination ",
+      "Time Management",
+      "Documentation",
+    ],
+    image: defaultImage,
+  },
+  {
+    title: "Huawei Site Visit Programme - TechScope'25",
+    key_contributions: [
+      "Contributed to the organization and promotion of a Huawei industry visit for 40+ students through multimedia content creation and event publicity.",
+    ],
+    key_skills: [
+      "Industry Engagement",
+      "Event Coordination ",
+    ],
+    image: defaultImage,
+  },
+  
+  
+];
 
-export { services, technologies, experiences, testimonials, projects, education, certificates };
+
+export { services, technologies, experiences, testimonials, projects, education, certificates, leaderships };

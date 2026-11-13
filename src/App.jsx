@@ -4,12 +4,11 @@ import {
   Contact,
   Education,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
-  Tech,
   Works,
   Certs,
+  Leadership,
   StarsCanvas,
 } from "./components";
 
@@ -43,7 +42,10 @@ const App = () => {
           <Certs />
         </section>
 
-        <Feedbacks />
+        <section id="leadership" className="scroll-mt-24">
+          <Leadership />
+        </section>
+      
         <div id="contact" className="relative z-0 scroll-mt-24">
           <Contact />
           <StarsCanvas />

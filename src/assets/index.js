@@ -31,6 +31,8 @@ import defaultImage from "./default.png";
 import utm from "./company/utm.png";
 import yuhua from "./company/yuhua.jpg";
 
+import robocar from "./leadership/robocar.jpg";
+
 export {
   logo,
   backend,
@@ -59,5 +61,6 @@ export {
   insightguard,
   defaultImage,
   utm,
-  yuhua
+  yuhua,
+  robocar
 };
