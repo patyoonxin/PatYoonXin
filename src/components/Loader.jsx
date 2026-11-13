@@ -1,9 +1,12 @@
-import React from 'react'
+const Loader = () => (
+  <div
+    className="splash-screen"
+    role="status"
+    aria-label="Loading portfolio"
+  >
+    <span className="splash-curtain splash-curtain-top" />
+    <span className="splash-curtain splash-curtain-bottom" />
+  </div>
+);
 
-const Loader = () => {
-  return (
-    <div>Loader</div>
-  )
-}
-
-export default Loader
+export default Loader;

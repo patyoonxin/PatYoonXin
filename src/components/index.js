@@ -9,6 +9,7 @@ import Works from './Works';
 import Certs from './Certs';
 import Leadership from './Leadership';
 import Contact from './Contact';
+import Loader from './Loader';
 
 export {
   Hero,
@@ -21,6 +22,7 @@ export {
   Certs,
   Leadership,
   Contact,
+  Loader,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
