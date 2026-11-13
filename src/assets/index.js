@@ -26,12 +26,22 @@ import tadika from "./company/tadika.png";
 
 import ecocool from "./ecocool.png";
 import insightguard from "./insightguard.png";
+import fleming from "./flemingAR.png";
+import shadowseek from "./shadowseek.png";
+import allways from "./allways.png";
+import gx from "./gx.png";
 import defaultImage from "./default.png";
 
 import utm from "./company/utm.png";
 import yuhua from "./company/yuhua.jpg";
 
 import robocar from "./leadership/robocar.jpg";
+import huawei from "./leadership/huawei.jpg";
+import japan from "./leadership/japan.jpg";
+import maxis from "./leadership/maxis.jpg";
+import nation from "./leadership/nation.jpg";
+import stakeholder from "./leadership/stakeholder.jpg";
+import suskom from "./leadership/suskom.jpg";
 
 import email from "./email.png";
 import linkedin from "./linkedin.png";
@@ -63,10 +73,20 @@ export {
   tadika,
   ecocool,
   insightguard,
+  fleming,
+  shadowseek,
+  allways,
+  gx,
   defaultImage,
   utm,
   yuhua,
   robocar,
+  huawei,
+  japan,
+  maxis,
+  nation,
+  stakeholder,
+  suskom,
   email,
   linkedin,
   whatsapp,

@@ -21,10 +21,20 @@ import {
   tadika,
   ecocool,
   insightguard,
+  fleming,
+  shadowseek,
+  allways,
+  gx,
   defaultImage,
   utm,
   yuhua,
   robocar,
+  maxis,
+  huawei,
+  japan,
+  nation,
+  stakeholder,
+  suskom,
   email,
   linkedin,
   whatsapp
@@ -178,32 +188,6 @@ const experiences = [
   
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 // react - blue-text-gradient
 // laravel & php - green-text-gradient
@@ -235,14 +219,10 @@ const projects = [
         name: "mediapipe",
         color: "green-text-gradient",
       },
-      {
-        name: "rag",
-        color: "pink-text-gradient",
-      },
     ],
-    image: defaultImage,
-    website_link: "https://github.com/",
-    source_code_link: "https://github.com/",
+    image: fleming,
+    website_link: "https://github.com/patyoonxin",
+    source_code_link: "https://github.com/patyoonxin",
   },
   {
     name: "EcoCool Node",
@@ -256,7 +236,7 @@ const projects = [
       },
       {
         name: "fastapi",
-        color: "orange-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "esp32",
@@ -291,7 +271,7 @@ const projects = [
       },
     ],
     image: defaultImage,
-    website_link: "https://github.com/",
+    website_link: "https://github.com/patyoonxin/AD1_Sec2_BeyondLevel.git",
     source_code_link: "https://github.com/patyoonxin/AD1_Sec2_BeyondLevel.git",
   },
   {
@@ -333,7 +313,7 @@ const projects = [
       },
       {
         name: "fastapi",
-        color: "orange-text-gradient",
+        color: "green-text-gradient",
       }
     ],
     image: insightguard,
@@ -352,75 +332,54 @@ const projects = [
       },
     ],
     image: defaultImage,
-    website_link: "https://github.com/",
-    source_code_link: "https://github.com/",
+    website_link: "https://github.com/patyoonxin",
+    source_code_link: "https://github.com/patyoonxin",
   },
-  // {
-  //   name: "SmartWealth-GX",
-  //   type: "Hackathon",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "ShadowSeek AI",
-  //   type: "Hackathon",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "AllWays",
-  //   type: "Hackathon",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "SmartWealth-GX",
+    type: "Hackathon",
+    description:
+      "A gamified banking prototype that pairs an AI financial assistant with automated Saving Pockets. Users can effortlessly plan goals (like a Langkawi getaway), automate deposits via round-ups or salary deductions, track real-time balances, and earn Spin & Win rewards for hitting savings milestones.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: gx,
+    website_link: "https://gxbank-dex-prototype.netlify.app/",
+    source_code_link: "https://github.com/FleepyDean/SmartWealth-GX.git",
+  },
+  {
+    name: "ShadowSeek AI",
+    type: "Hackathon",
+    description:
+      "An AI governance platform prototype to address Shadow AI risks when employees use third-party Generative AI tools. The platform features real-time risk detection, automated prompt sanitization, synthetic data generation, and an executive dashboard for monitoring AI adoption and enforcing enterprise AI policies.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: shadowseek,
+    website_link: "https://shadowseek.vercel.app/",
+    source_code_link: "https://github.com/Tan051107/ShadowSeek.git",
+  },
+  {
+    name: "AllWays",
+    type: "Hackathon",
+    description:
+      "An AI-powered group travel application prototype that seamlessly synchronizes itineraries, manages shared finances, and ensures real-time safety. Unlike traditional travel apps, it treats physical accessibility and user fatigue as non-negotiable baseline constraints, adjusting plans so every member of a group can travel comfortably.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: allways,
+    website_link: "https://all-ways-two.vercel.app/",
+    source_code_link: "https://github.com/Tan051107/AllWays.git",
+  },
 ];
 
 const education = [
@@ -528,7 +487,6 @@ const leaderships = [
       "Explored real-world applications of AI, smart city technologies, intelligent traffic systems, and industrial robotics.",
       "Learned how sensor-based defect detection and Overall Equipment Effectiveness (OEE) metrics support manufacturing efficiency.",
       "Collaborated with a team to develop and pitch an Automated Intern Matching System, an AI-driven solution to streamline internship recruitment.",
-      "Champion - AI Solution Pitching Competition"
     ],
     key_skills: [
       "AI Innovation",
@@ -536,7 +494,7 @@ const leaderships = [
       "Team Collaboration",
       "Technical Pitching",
     ],
-    image: defaultImage,
+    image: maxis,
   },
   {
     title: "Digital Nation Summit Kuala Lumpur (ASEAN Edition) 2025",
@@ -551,7 +509,7 @@ const leaderships = [
       "Industry Engagement",
       "Public Interaction",
     ],
-    image: defaultImage,
+    image: nation,
   },
   {
     title: "Stakeholder Meetings - Kulai District Official Portal Development",
@@ -560,14 +518,13 @@ const leaderships = [
       "Conducted stakeholder meetings to gather and clarify system requirements.",
       "Discussed portal functionalities, content requirements, and features to be included or excluded.",
       "Presented proposed solutions and development progress to stakeholders for feedback and validation.",
-      "Incorporated stakeholder feedback to align the portal with organizational needs."
     ],
     key_skills: [
       "Stakeholder Engagement",
       "Requirements Analysis",
       "Client Communication",
     ],
-    image: defaultImage,
+    image: stakeholder,
   },
   {
     title: "Engineering & Science English Summer Exchange Programme with Japan",
@@ -582,14 +539,14 @@ const leaderships = [
       "International Collaboration",
       "Adaptability",
     ],
-    image: defaultImage,
+    image: japan,
   },
    {
     title: "Vice Director in JARVIS'26 - Robotics Learning & Robocar Challenge",
     description: "Co-organized a robotics education programme for children from Rumah Perlindungan Kanak-Kanak TBQ Amal, introducing them to robotics, programming, and hands-on robotic car activities.",
     key_contributions: [
       "Coordinated with the children's home representative to arrange programme details and facilitate communication.",
-      "Assisted in preparing and testing robotic cars, including code debugging and functionality checks.Participated in multicultural activities and educational visits to historical landmarks.",
+      "Assisted in preparing and testing robotic cars, including code debugging and functionality checks.",
       "Supported hands-on robotics and coding sessions, guiding participants in programming their cars.",
     ],
     key_skills: [
@@ -609,7 +566,7 @@ const leaderships = [
       "Time Management",
       "Documentation",
     ],
-    image: defaultImage,
+    image: suskom,
   },
   {
     title: "Huawei Site Visit Programme - TechScope'25",
@@ -620,7 +577,7 @@ const leaderships = [
       "Industry Engagement",
       "Event Coordination ",
     ],
-    image: defaultImage,
+    image: huawei,
   },
 ];
   
@@ -648,4 +605,4 @@ const leaderships = [
 ];
 
 
-export { services, technologies, experiences, testimonials, projects, education, certificates, leaderships, contacts };
+export { services, technologies, experiences, projects, education, certificates, leaderships, contacts };
